@@ -11,5 +11,5 @@ before_script:
 script:
  - lettuce test
  - python Test_Figura.py -v
- - coverage run --branch TestCalculator.py
+ - coverage run --branch Test_Figura.py
  - coverage report -m
